@@ -1,0 +1,6 @@
+@SLTB.Server_HostAddress = http://localhost:5265
+
+GET {{SLTB.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

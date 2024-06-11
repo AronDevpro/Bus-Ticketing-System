@@ -1,0 +1,93 @@
+:root{
+    margin: 0;
+    padding: 0;
+}
+
+/*Home Page*/
+.footer{
+    background: rgba(0, 0, 0, 0) url(assets/footer-map-bg.png) no-repeat scroll center center / 80% auto;
+}
+.copyright-border{
+    background: rgba(0, 0, 0, 0) url(assets/footer-border.png) repeat-x scroll center center;
+    height: 1px;
+}
+/*Home Page*/
+
+/* date picker */
+.datepicker-wrapper {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+}
+/* date picker */
+
+/* bus seat structure */
+.column {
+    flex: 1;
+    padding: 7px;
+    text-align: center;
+    margin: 0.3%;
+    border-radius: 5px;
+    background-color: #E3E3E3;
+}
+
+.column-empty {
+    flex: 1;
+    padding: 7px;
+    text-align: center;
+    margin: 0.4%;
+}
+
+.space {
+    flex: 0 0 calc(14% - 10px);
+    background-color: transparent;
+}
+
+.clicked {
+    background-color: #8de786;
+    border-radius: 5px;
+}
+
+.seat-booked {
+    background-color: #BE2551;
+    color: #FFFFFF;
+}
+
+/* bus seat structure */
+
+/*Slider Images*/
+.image-gallery-content .image-gallery-slide .image-gallery-image{
+    max-height:calc(100vh - 100px)
+}
+.image-gallery-slide .image-gallery-image {
+    width: 100vw;
+    object-fit: fill;
+}
+/*Slider Images*/
+
+/* Tittle Borders*/
+.title-border:after{
+    content:'';
+    display:block;
+    width:80px;
+    height:4px;
+    background:#ff5e5e;
+    margin:0 auto;
+    margin-top:15px;
+    border-radius:3px;
+}
+.title-border-left::after{
+    content:'';
+    display:block;
+    width:50px;
+    height:4px;
+    background:#ff5e5e;
+    margin:0;
+    margin-top:15px;
+    border-radius:3px;
+}
